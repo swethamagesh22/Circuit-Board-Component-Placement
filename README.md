@@ -26,18 +26,6 @@ An interactive application for optimizing the placement of components on circuit
 
 ## Usage
 
-### Running the Application
-
-Run the Streamlit app:
-```
-./run.sh --run-app
-```
-
-Or directly with Streamlit:
-```
-streamlit run app.py
-```
-
 ### Training the AI Model
 
 To train the AI model (required for AI optimization):
@@ -50,6 +38,18 @@ Options:
 - `--samples 200`: Number of samples to generate (default: 200)
 - `--epochs 30`: Number of training epochs (default: 30)
 - `--batch-size 16`: Batch size for training (default: 16)
+
+### Running the Application
+
+Run the Streamlit app:
+```
+./run.sh --run-app
+```
+
+Or directly with Streamlit:
+```
+streamlit run app.py
+```
 
 ## Project Structure
 
